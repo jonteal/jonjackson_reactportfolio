@@ -15,6 +15,12 @@ const Intro = () => {
                             <div className='intro-title-item'>Content Creator</div>
                         </div>
                     </div>
+                    <div className="intro-desc">
+                        I am a recent graduate of the University of Denver bootcamp for 
+                        Full Stack Development! I design and develop modern
+                        websites with stylish UI and am always seeking the next level of 
+                        my potential. 
+                    </div>
                 </div>
             </div>
             <div className="intro-right">right</div>
