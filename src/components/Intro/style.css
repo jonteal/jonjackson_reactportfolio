@@ -1,7 +1,6 @@
 .intro {
     display: flex;
     height: 100vh;
-    /* background-color: black; */
 }
 
 .intro-left {
@@ -10,4 +9,13 @@
 
 .intro-right {
     flex: 1;
+}
+
+.intro-left-wrapper {
+    padding: 50px;
+}
+
+.intro-tag {
+    font-size: 30px;
+    font-weight: 300;
 }
