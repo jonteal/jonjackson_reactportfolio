@@ -3,7 +3,7 @@ import BrightIdeas from "./Images/brightideas.png";
 import DailyDev from "./Images/thedailydev.png";
 import WeatherAPI from "./Images/weather-dashboard.png";
 
-const projects = [
+export const projects = [
     {
         id: 1,
         img: {EatTheFrog},
