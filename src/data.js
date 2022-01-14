@@ -3,7 +3,7 @@ import BrightIdeas from "./Images/brightideas.png";
 import DailyDev from "./Images/thedailydev.png";
 import WeatherAPI from "./Images/weather-dashboard.png";
 
-export const projects = [
+const projects = [
     {
         id: 1,
         img: {EatTheFrog},
@@ -25,4 +25,6 @@ export const projects = [
         link: "https://jonteal.github.io/weather-dashboard/",
     },
 ];
+
+export default projects
 

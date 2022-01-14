@@ -1,6 +1,7 @@
 import "./project.css"
 
-const Project = ({img, link}) => {
+
+const Project = (props) => {
     return (
         <div className="project">
             <div className="project-browser">
@@ -8,9 +9,12 @@ const Project = ({img, link}) => {
                 <div className="project-circle"></div>
                 <div className="project-circle"></div>
             </div>
-            <a href={link} target="_blank" rel="noreferrer">
-                <img src={img} alt="" className="project-img"/>
-            </a>
+            {props.projects.map(projects => (
+                <a key={projects.id} href={projects.link} target="_blank" rel="noreferrer">
+                    <img src={projects.img} alt="" className="project-img"/>
+                </a>
+            ))}
+
         </div>
     )
 }
