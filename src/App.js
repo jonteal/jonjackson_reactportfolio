@@ -5,6 +5,7 @@ import Contact from "./components/Contact/contact.js";
 import Toggle from "./components/Toggle/toggle.js";
 
 const App = () => {
+const [dark,setDark] = useState(false)
     return (
         <div>
             <Toggle/>
