@@ -90,6 +90,7 @@ button {
     .contact-title {
         font-size: 40px;
         margin-top: 18%;
+        text-align: center;
     }
 
     .contact-info-item {
