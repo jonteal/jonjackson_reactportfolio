@@ -1,9 +1,11 @@
+import Resume from "../../Images/jon-jackson-resume.pdf";
+
 export const MenuItems = [
-    // {
-    //     title: 'Home',
-    //     url: '#home-section',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Github',
+        url: 'https://github.com/jonteal',
+        cName: 'nav-links'
+    },
     {
         title: 'About',
         url: '#about-section',
@@ -20,8 +22,8 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Sign up',
-        url: '#',
-        cName: 'nav-links-mobile'
+        title: 'Resume',
+        url: Resume,
+        cName: 'nav-links'
     },
 ]

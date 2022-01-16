@@ -8,7 +8,7 @@
     position: fixed;
     z-index: 5;
     width: 100%;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 /* .navbar-logo {
@@ -61,11 +61,11 @@
 
 @media screen and (max-width: 960px) {
 
-    .navbar-items {
-        display: hidden;
-    }
-
     /* .navbar-items {
+        display: hidden;
+    } */
+
+    .navbar-items {
         position: relative;
     }
 
@@ -121,9 +121,9 @@
     .fa-times {
         color: #fff;
         font-size: 2rem;
-    }  */
+    }  
 
-    /* .nav-links-mobile {
+    .nav-links-mobile {
         display: block;
         text-align: center;
         padding: 1.5rem;
@@ -134,12 +134,12 @@
         text-decoration: none;
         color: white;
         font-size: 1.5rem;
-    } */
+    }
 
-    /* .nav-links-mobile {
+    .nav-links-mobile {
         background: #fff;
         color: #3985f7;
         transition: 250ms;
         width: 100%;
-    } */
+    }
 };
