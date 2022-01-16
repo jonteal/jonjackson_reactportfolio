@@ -28,6 +28,10 @@
     font-weight: 300;
 }
 
+.intro-name {
+    font-size: 60px;
+}
+
 .intro-title {
     height: 50px;
     overflow: hidden;

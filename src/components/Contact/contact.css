@@ -78,6 +78,7 @@ button {
     color: white;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 6%;
 }
 
 @media screen and (max-width: 480px) {

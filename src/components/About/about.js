@@ -23,10 +23,10 @@ const About = () => {
                 <p className="about-desc">
                     I graduated the University of Arkansas Walton College of Business with a 
                     Bachelor's in Marketing and Business Administration. Before transitioning into 
-                    business though, I had a large focus on Anthropology and French as well. Other 
-                    than my college education and my graduating the University of Denver coding bootcamp, 
+                    business, I had a large focus on Anthropology and French as well. Other 
+                    than my college education and graduating the University of Denver coding bootcamp, 
                     I spent a few years as a music producer and performer writing music and playing 
-                    saxophone. Life is a beautiful journey!
+                    saxophone. Life is a beautiful journey and you never know what's in store!
                 </p>
             </div>
         </div>

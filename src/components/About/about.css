@@ -16,6 +16,7 @@
 
 .about-right {
     flex: 1;
+    padding-right: 5%;
 }
 
 .about-card {
