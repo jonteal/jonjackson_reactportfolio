@@ -1,12 +1,11 @@
 import "./Project.css";
 
-const Project = ({img, link}) => {
+const Project = ({img, link, live}) => {
     return (
         <div className="project">
             <div className="project-browser">
-                <div className="project-circle"></div>
-                <div className="project-circle"></div>
-                <div className="project-circle"></div>
+                <a className="project-link" href={link} target="_blank" rel="noreferrer">Github</a>
+                <a className="project-link" href={live} target="_blank" rel="noreferrer">Try it!</a>
             </div>
             <a href={link} target="_blank" rel="noreferrer" className="link-left">
                 <img src={img} alt="" className="project-img"/>

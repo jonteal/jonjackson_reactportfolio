@@ -9,12 +9,13 @@
 }
 
 .project-browser {
-    height: 20px;
+    height: 25px;
     background-color: rgb(213, 213, 213);
     display: flex;
     align-items: center;
     position: sticky;
     z-index: 2;
+    justify-content: space-around;
 }
 
 .project-circle {
@@ -35,6 +36,18 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 5%;
+}
+
+.project-link {
+    font-weight: 500;
+    color: #1c74f7;
+}
+
+.project-link:hover {
+    background-color: #1c74f7;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+    border-radius: 4px;
 }
 
 /* .link-left {
