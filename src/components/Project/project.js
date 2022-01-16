@@ -1,6 +1,6 @@
-import "./project.css"
+import "./Project.css";
 
-const Project = ({img, link, github}) => {
+const Project = ({img, link}) => {
     return (
         <div className="project">
             <div className="project-browser">
@@ -12,10 +12,6 @@ const Project = ({img, link, github}) => {
                 <img src={img} alt="" className="project-img"/>
             </a>
             <div className="link-container">
-{/* 
-                <a href={github} target="_blank" rel="noreferrer" className="link-right">
-                    Github
-                </a> */}
             </div>
         </div>
     )

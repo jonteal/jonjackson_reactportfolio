@@ -1,9 +1,9 @@
-import "./about.css";
+import "./About.css";
 import MontanaPic from "../../Images/me.jpeg";
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about-section">
             <div className="about-left">
                 <div className="about-card bg"></div>
                 <div className="about-card">

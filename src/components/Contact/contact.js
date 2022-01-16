@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./Contact.css";
 import Phone from "../../Images/phone.png";
 import Email from "../../Images/email.png";
 import Address from "../../Images/address.png";
@@ -32,7 +32,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact-me-section">
             <div className="contact-bg"></div>
             <div  className="contact-wrapper">
                 <div className="contact-left">

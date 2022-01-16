@@ -1,10 +1,11 @@
 import { useContext } from "react";
-import Intro from "./components/Intro";
-import About from "./components/About/about.js";
-import ProjectList from "./components/ProjectList/projectList.js";
-import Contact from "./components/Contact/contact.js";
-import Toggle from "./components/Toggle/toggle.js";
+import Intro from "./components/Intro/Intro.js";
+import About from "./components/About/About.js";
+import ProjectList from "./components/ProjectList/ProjectList.js";
+import Contact from "./components/Contact/Contact.js";
+import Toggle from "./components/Toggle/Toggle.js";
 import { ThemeContext } from "./context";
+import Navbar from "./components/Navbar/Navbar.js";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <div style={{ backgroundColor:darkMode ? "#222" : "white", 
         color: darkMode && "white" }}>
             <Toggle/>
+            <Navbar/>
             <Intro/>
             <About/>
             <ProjectList/>

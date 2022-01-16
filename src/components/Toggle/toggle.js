@@ -1,4 +1,4 @@
-import "./toggle.css";
+import "./Toggle.css";
 import Sun from "../../Images/sun.png";
 import Moon from "../../Images/moon.png";
 import { useContext } from "react";
