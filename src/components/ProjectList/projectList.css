@@ -11,8 +11,9 @@
 }
 
 .project-list-title {
-    font-size: 59px;
+    font-size: 45px;
     font-weight: 600;
+    margin-top: 5%;
 }
 
 .project-list-desc {
@@ -33,6 +34,7 @@
 
     .project-list-texts {
         width: 100%;
+        margin-top: 25%;
     }
 
     .project-list-desc {

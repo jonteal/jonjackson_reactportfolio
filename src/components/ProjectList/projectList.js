@@ -7,7 +7,7 @@ const ProjectList = () => {
     return (
         <div className="project-list" id="project-section">
             <div className="project-list-texts">
-                <h1 className="project-list-title">My Projects!</h1>
+                <h1 className="project-list-title">My Projects</h1>
                 <p className="project-list-desc">
                     Welcome to my portfolio of work! I love building projects and challenging my
                     current understanding but I am always humbled to remember that there is always

@@ -60,7 +60,12 @@
 }
 
 @media screen and (max-width: 960px) {
+
     .navbar-items {
+        display: hidden;
+    }
+
+    /* .navbar-items {
         position: relative;
     }
 
@@ -107,17 +112,16 @@
         display: block;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 10%;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        /* width: 100%; */
     }
 
     .fa-times {
         color: #fff;
         font-size: 2rem;
-    }
+    }  */
 
     /* .nav-links-mobile {
         display: block;
@@ -132,10 +136,10 @@
         font-size: 1.5rem;
     } */
 
-    .nav-links-mobile {
+    /* .nav-links-mobile {
         background: #fff;
         color: #3985f7;
         transition: 250ms;
-    }
-
-}
+        width: 100%;
+    } */
+};

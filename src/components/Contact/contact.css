@@ -28,7 +28,7 @@
 }
 
 .contact-title {
-    font-size: 60px;
+    font-size: 45px;
     width: 80%;
 }
 
@@ -88,7 +88,8 @@ button {
     }
 
     .contact-title {
-        font: 30px;
+        font-size: 40px;
+        margin-top: 18%;
     }
 
     .contact-info-item {
