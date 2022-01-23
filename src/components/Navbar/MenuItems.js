@@ -1,4 +1,5 @@
 import Resume from "../../Images/jon-jackson-resume.pdf";
+// import Github from "../../Images/github-logo.png";
 
 export const MenuItems = [
     {
