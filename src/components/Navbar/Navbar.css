@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -15,19 +15,27 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    grid-gap: 15px;
+    grid-gap: 20px;
     list-style: none;
     text-align: center;
     width: 8vw;
     justify-content: flex-start;
     align-items: center;
     right: 82%;
-    top: 8px;
+    top: 10px;
 }
 
 .social-icon {
-    width: 2rem;
+    width: 1.6rem;
     height: auto;
+}
+
+.social-icon:hover {
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+    color: rgb(36, 36, 36);
+
 }
 
 

@@ -22,7 +22,7 @@ class Navbar extends Component {
                         className="social-icon"
                     />
                 </a>
-                <a href="https://github.com/jonteal" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/jonathanjackson25/" target="_blank" rel="noreferrer">
                     <img 
                         src={LinkedInIcon}
                         alt=""
@@ -30,7 +30,6 @@ class Navbar extends Component {
                     />
                 </a>
             </div>
-            {/* <h1 className="navbar-logo">Welcome!</h1> */}
             <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
