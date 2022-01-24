@@ -25,8 +25,8 @@ const About = () => {
                     Bachelor's in Marketing and Business Administration. Before transitioning into 
                     business, I had a large focus on Anthropology and French as well. Other 
                     than my college education and graduating the University of Denver coding bootcamp, 
-                    I spent a few years as a music producer and performer writing music and playing 
-                    saxophone. Life is a beautiful journey and you never know what's in store!
+                    I spent a few years as a music producer/performer - writing music and playing 
+                    saxophone around the country. Life is a beautiful journey and you never know what's in store!
                 </p>
             </div>
         </div>

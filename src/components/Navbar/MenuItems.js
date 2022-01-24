@@ -8,6 +8,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/jonathanjackson25/',
+        cName: 'nav-links'
+    },
+    {
         title: 'About',
         url: '#about-section',
         cName: 'nav-links'
