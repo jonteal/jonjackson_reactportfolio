@@ -1,32 +1,38 @@
 import "./Project.css";
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 
-const Project = ({img, link, live, description}) => {
+const Project = ({img, link, live, title, description}) => {
     const [isOpen, setIsOpen] = useState(false);
+
+    const parentRef = useRef();
+
 
     return (
         <div className="project">
+                <div className="content-parent" ref={parentRef} 
+                    style={
+                        isOpen ? {
+                            height: parentRef.current.scrollHeight + "px",
+                        }
+                        : {
+                            height: "0px",
+                        }
+                    }>
+                        <div onClick={() => setIsOpen(!isOpen)} className="content">
+                            {description}
+                        </div>
+                </div>
             
-            <button className="description-toggle-btn" onClick={() => setIsOpen(!isOpen)}>
                 <div className="project-browser">
                     <a className="project-link" href={link} target="_blank" rel="noreferrer">Github</a>
-                    <p className="project-link-description" href={description}>
-                        {isOpen && <div className="content">
-                            {description} 
-                        </div>}
-                        
-                    </p>
+
                     <a className="project-link" href={live} target="_blank" rel="noreferrer">Try it!</a>
                 </div>
-            </button>
 
-            <a href={link} target="_blank" rel="noreferrer" className="link-left">
-                <img src={img} alt="" className="project-img"/>
-            </a>
+        
+            <img onClick={() => setIsOpen(!isOpen)} src={img} alt="" className="project-img"/>
+        
 
-            <div className="project-description">
-                <p>{description}</p>
-            </div>
                         
         </div>
     )
