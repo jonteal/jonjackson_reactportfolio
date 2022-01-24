@@ -1,17 +1,16 @@
 import Resume from "../../Images/jon-jackson-resume.pdf";
-// import Github from "../../Images/github-logo.png";
 
 export const MenuItems = [
-    {
-        title: 'Github',
-        url: 'https://github.com/jonteal',
-        cName: 'nav-links'
-    },
-    {
-        title: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/jonathanjackson25/',
-        cName: 'nav-links'
-    },
+    // {
+    //     title: 'Github',
+    //     url: 'https://github.com/jonteal',
+    //     cName: 'nav-links'
+    // },
+    // {
+    //     title: 'LinkedIn',
+    //     url: 'https://www.linkedin.com/in/jonathanjackson25/',
+    //     cName: 'nav-links'
+    // },
     {
         title: 'About',
         url: '#about-section',

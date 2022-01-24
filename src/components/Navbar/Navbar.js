@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
+import GithubIcon from "../../Images/white-github-logo.png";
+import LinkedInIcon from  "../../Images/white-linkedin-logo.png";
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -12,6 +14,22 @@ class Navbar extends Component {
     render() {
         return(
         <nav className="navbar-items">
+            <div className="social-icons">
+                <a href="https://github.com/jonteal" target="_blank" rel="noreferrer">
+                    <img 
+                        src={GithubIcon}
+                        alt=""
+                        className="social-icon"
+                    />
+                </a>
+                <a href="https://github.com/jonteal" target="_blank" rel="noreferrer">
+                    <img 
+                        src={LinkedInIcon}
+                        alt=""
+                        className="social-icon"
+                    />
+                </a>
+            </div>
             {/* <h1 className="navbar-logo">Welcome!</h1> */}
             <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
