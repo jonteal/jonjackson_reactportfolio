@@ -11,13 +11,14 @@ export const projects = [
         img: EatTheFrog,
         link: "https://github.com/msp4msps/eat_the_frog",
         live: "https://msp4msps.github.io/eat_the_frog/",
-        // description: "A task manager with a built-in incentive system for the user to help them stay more accountable and more productive."
+        description: "A task manager with a built-in incentive system for the user to help them stay more accountable and more productive."
     },
     {
         id: 2,
         img: BrightIdeas,
         link: "https://github.com/EMtheDM/BrightIdeas",
         live: "https://gentle-wildwood-55104.herokuapp.com/",
+        description: "A simple and concise project management system where a user can create and manage their projects from start to finish."
     },
     {
         id: 3,

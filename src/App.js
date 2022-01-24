@@ -6,6 +6,8 @@ import Contact from "./components/Contact/Contact.js";
 import Toggle from "./components/Toggle/Toggle.js";
 import { ThemeContext } from "./context";
 import Navbar from "./components/Navbar/Navbar.js";
+import CollapsibleProject from "./components/CollapsibleProject/CollapsibleProject";
+
 
 const App = () => {
 
@@ -20,6 +22,7 @@ const App = () => {
             <Intro/>
             <About/>
             <ProjectList/>
+            {/* <CollapsibleProject/> */}
             <Contact/>
         </div>
     )
