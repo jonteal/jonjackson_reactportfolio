@@ -1,4 +1,5 @@
 import "./Intro.css";
+// import Me from '../../Images/hero-profile-pic.jpeg';
 
 const Intro = () => {
     return (

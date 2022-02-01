@@ -1,16 +1,11 @@
 import Resume from "../../Images/jon-jackson-resume.pdf";
 
 export const MenuItems = [
-    // {
-    //     title: 'Github',
-    //     url: 'https://github.com/jonteal',
-    //     cName: 'nav-links'
-    // },
-    // {
-    //     title: 'LinkedIn',
-    //     url: 'https://www.linkedin.com/in/jonathanjackson25/',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Home',
+        url: '#home-section',
+        cName: 'nav-links'
+    },
     {
         title: 'About',
         url: '#about-section',

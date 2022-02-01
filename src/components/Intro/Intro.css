@@ -54,6 +54,12 @@
     margin-top: -1%;
 }
 
+.intro-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @keyframes move {
     25%{
         transform: translateY(-50px);
@@ -106,6 +112,11 @@
 
     .intro-desc {
         display: none;
+    }
+
+    .intro-bg {
+        clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
+
     }
     
 }

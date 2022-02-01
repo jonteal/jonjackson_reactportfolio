@@ -63,6 +63,23 @@
     color: rgb(36, 36, 36);
 }
 
+.currentLink {
+    background-color: #2a9d8f;
+    color: white;
+    border-radius: 4px;
+}
+
+.name {
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+}
+
+.first-letter {
+    /* font-weight: bold; */
+    font-size: 2rem;
+}
+
 .fa-bars {
     color: white;
 }
