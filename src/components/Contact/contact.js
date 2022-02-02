@@ -25,6 +25,7 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             setDone(true);
+            formRef.current.reset();
 
         }, (error) => {
             console.log(error.text);

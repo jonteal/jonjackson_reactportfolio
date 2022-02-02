@@ -1,4 +1,3 @@
-import Resume from "../../Images/jon-jackson-resume.pdf";
 
 export const MenuItems = [
     {
@@ -23,7 +22,7 @@ export const MenuItems = [
     },
     {
         title: 'Resume',
-        url: Resume,
+        url: '#resume',
         cName: 'nav-links'
     },
 ]

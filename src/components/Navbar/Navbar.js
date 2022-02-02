@@ -1,7 +1,7 @@
 // import React, { Component } from "react";
-import React from 'react';
+import React, { useState } from 'react';
 import "./Navbar.css";
-import Resume from "../../Images/jon-jackson-resume.pdf";
+// import Resume from "../../Images/jon-jackson-resume.pdf";
 
 // import { MenuItems } from "./MenuItems";
 // import GithubIcon from "../../Images/white-github-logo.png";
@@ -10,21 +10,24 @@ import Resume from "../../Images/jon-jackson-resume.pdf";
 
 function Navbar({ currentPage, handlePageChange }) {
 
-    // const state = { clicked: false }
+    const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
+        // this.setState({ clicked: !this.state.clicked })
+        setClicked(!clicked);
     }
+
+
 
     return (
         <nav className="navbar-items">
-                <h1 className='name'>
+                {/* <h1 className='name'>
                     <span className='first-letter'>J</span>on <span className='first-letter'>J</span>ackson
-                </h1>
-            <div className="menu-icon" onClick={this.handleClick}>
-                <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+                </h1> */}
+            <div className="menu-icon" onClick={handleClick}>
+                <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
-                <ul className='nav-menu'>
+                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
                         <a
                             href="#home"
@@ -63,7 +66,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     </li>
                     <li className="nav-item">
                         <a
-                            href= { Resume }
+                            href= { '#resume' }
                             onClick={() => handlePageChange('Resume')}
                             className={currentPage === 'Resume' ? 'nav-links nav-link active currentLink' : 'nav-links nav-link'}
                         >

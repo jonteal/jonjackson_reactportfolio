@@ -7,6 +7,7 @@ import Intro from './Intro/Intro';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 import Toggle from './Toggle/Toggle';
+import Resume from './Resume/Resume';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -23,6 +24,9 @@ export default function PortfolioContainer() {
         }
         if (currentPage === 'Contact') {
             return <Contact />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
         }
     };
 

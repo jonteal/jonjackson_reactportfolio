@@ -57,7 +57,12 @@
     .about {
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        /* margin-top: 50px; */
+    }
+
+    .about-img {
+        /* padding-top: 1rem; */
+        border-radius: 30px 30px 30px 30px;
     }
 
     .about-left {
@@ -65,7 +70,7 @@
     }
 
     .about-card {
-        height: 30vh;
+        height: 20vh;
     }
 
     .about-card.bg, .about-award {
@@ -73,6 +78,8 @@
     }
 
     .about-right {
-        padding: 20px;
+        padding: 15px;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 }
