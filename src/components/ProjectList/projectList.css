@@ -27,6 +27,11 @@
     width: 100%;
 }
 
+.coming-soon {
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 480px) {
     .project-list {

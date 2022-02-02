@@ -63,6 +63,15 @@
     .about-img {
         /* padding-top: 1rem; */
         border-radius: 30px 30px 30px 30px;
+        margin-top: 3.5rem;
+    }
+
+    .about-sub {
+        margin-top: 3rem;
+    }
+
+    .about-desc {
+        margin-bottom: 2rem;
     }
 
     .about-left {

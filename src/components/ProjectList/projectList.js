@@ -19,7 +19,10 @@ const ProjectList = () => {
                     <Project key={item.id} img={item.img} link={item.link} live={item.live} description={item.description}/>
                 ))}
             </div>
+            <p className="coming-soon">More Coming Soon!</p>
+
         </div>
+
     )
 }
 

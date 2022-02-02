@@ -21,6 +21,22 @@
     justify-content: space-between;
 }
 
+.resume-info-item {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 300;
+    width: 70%;
+}
+
+.info-icon {
+    width: auto;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.download-link {
+    color: rgb(36, 124, 255);
+}
 
 .resume-left {
     flex: 1;

@@ -1,4 +1,9 @@
 import "./Resume.css";
+import PhoneIcon from "../../Images/white-phone-icon.png";
+import EmailIcon from "../../Images/email-icon.png";
+import ResumePdf from "../../Images/Jon_Jackson_Resume.pdf";
+import Website from '../../Images/website-logo.png';
+
 
 const Resume = () => {
     return (
@@ -48,11 +53,39 @@ const Resume = () => {
                     
                     <p className="resume-desc">
                         <h2>Contact Info</h2>
-                        <p>Download Resume</p>
-                        <p>jonjackson.webdesign@gmail.com</p>
-                        <p>+1-479-601-3157</p>
-                        <p>jonjacksondev.com</p>
-                        <p>@devjonjackson</p>
+
+                        <div className="resume-info-item">
+                            <img
+                                src={EmailIcon}
+                                alt=""
+                                className="info-icon"
+                            />
+                            jonjackson.webdesign@gmail.com
+                        </div>
+
+                        <div className="resume-info-item">
+                            <img
+                                src={PhoneIcon}
+                                alt=""
+                                className="info-icon"
+                            />
+                            +1-479-601-3157
+                        </div>
+
+                        <div className="resume-info-item">
+                            <img
+                                src={Website}
+                                alt=""
+                                className="info-icon"
+                            />
+                            jonjacksondev.com
+                        </div>
+
+                        <div className="resume-info-item">
+                            <a className="download-link" href={ResumePdf} target="_blank" rel="noreferrer">Download Resume</a>
+                        </div>
+                        
+                        
                     </p>
                 </div>
             </div>

@@ -1,7 +1,9 @@
 import "./Contact.css";
-import Phone from "../../Images/phone.png";
-import Email from "../../Images/email.png";
-import Address from "../../Images/address.png";
+// import Phone from "../../Images/phone.png";
+import PhoneIcon from "../../Images/white-phone-icon.png";
+// import Email from "../../Images/email.png";
+import LocationIcon from "../../Images/white-location-icon.png";
+import EmailIcon from "../../Images/email-icon.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -41,7 +43,7 @@ const Contact = () => {
                     <div className="contact-info">
                         <div className="contact-info-item">
                             <img
-                                src={Phone}
+                                src={PhoneIcon}
                                 alt=""
                                 className="contact-icon"
                             />
@@ -49,7 +51,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-info-item">
                             <img
-                                src={Email}
+                                src={EmailIcon}
                                 alt=""
                                 className="contact-icon"
                             />
@@ -57,7 +59,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-info-item">
                             <img
-                                src={Address}
+                                src={LocationIcon}
                                 alt=""
                                 className="contact-icon"
                             />
