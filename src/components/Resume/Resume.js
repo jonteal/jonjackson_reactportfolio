@@ -10,9 +10,9 @@ const Resume = () => {
             <div  className="resume-wrapper">
 
             <div className="resume-left">
-                    <p className="resume-desc">
-                        <h2>Bio</h2>
-                        <p>
+                    <p className="resume-desc bio">
+                        <h2 className="bio">Bio</h2>
+                        <p className="bio">
                             Full stack web developer with background in marketing and business with an ability to provide unique
                             perspectives on how end-users interact with websites and software platforms. Innovative
                             problem-solver who is passionate and reliable in individual and team-oriented settings.
@@ -27,11 +27,11 @@ const Resume = () => {
                         <p> Bachelor of Science, Marketing</p>
                     </p>
                     <p className="resume-desc">
-                        <h2>Work</h2>
-                        <b>MRO, Inc.</b>
-                        <p>Developed new business with 50+ accounts and boosted revenue by $580k in 2021.</p>
-                        <b>Jonteal</b>
-                        <p>Music producer and live performer</p>
+                        <h2 className="bio">Work</h2>
+                        <b className="bio">MRO, Inc.</b>
+                        <p className="bio">Developed new business with 50+ accounts and boosted revenue by $580k in 2021.</p>
+                        <b className="bio">Jonteal</b>
+                        <p className="bio">Music producer and live performer</p>
                     </p>
                 </div>
                 

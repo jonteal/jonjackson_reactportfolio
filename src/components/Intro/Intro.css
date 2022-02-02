@@ -117,10 +117,5 @@
     .intro-bg {
         clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
 
-    }
-    
-}
-
-@media screen and (max-width: 480px) {
-    
+    }  
 }
