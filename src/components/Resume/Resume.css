@@ -100,17 +100,12 @@ h2 {
         padding-top: 5%;
     }
 
-    .h2 {
-        background-color: ;
-    }
-
-    /* .resume-right {
-        display: flex;
-        flex-direction: column;
-    } */
-
     .bio {
         display: none;
+    }
+
+    .resume-right {
+        margin-top: -1rem;
     }
 
 }
