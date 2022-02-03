@@ -11,32 +11,19 @@
     opacity: 90%;
 }
 
-/* .social-icons {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    grid-gap: 20px;
-    list-style: none;
-    text-align: center;
-    width: 8vw;
-    justify-content: flex-start;
-    align-items: center;
-    right: 82%;
-    top: 10px;
-} */
 
-.social-icon {
+/* .social-icon {
     width: 1.6rem;
     height: auto;
-}
+} */
 
-.social-icon:hover {
+/* .social-icon:hover {
     background-color: white;
     border-radius: 50%;
     transition: all 0.2s ease-out;
     color: rgb(36, 36, 36);
 
-}
+} */
 
 
 .nav-menu {
@@ -97,7 +84,7 @@
         position: fixed;
     }
 
-    .social-icons {
+    /* .social-icons {
         position: absolute;
         display: flex;
         flex-direction: row;
@@ -109,12 +96,12 @@
         left: 45%;
         align-items: center;
         top: 8px;
-    }
+    } */
     
-    .social-icon {
+    /* .social-icon {
         width: 2rem;
         height: auto;
-    }
+    } */
 
 
     .nav-menu {
