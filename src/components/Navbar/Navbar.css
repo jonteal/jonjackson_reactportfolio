@@ -11,6 +11,37 @@
     opacity: 90%;
 }
 
+<<<<<<< HEAD
+=======
+/* .social-icons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 8vw;
+    justify-content: flex-start;
+    align-items: center;
+    right: 82%;
+    top: 10px;
+} */
+
+.social-icon {
+    width: 1.6rem;
+    height: auto;
+}
+
+.social-icon:hover {
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+    color: rgb(36, 36, 36);
+
+}
+
+
+>>>>>>> origin/HEAD
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(6, auto);
