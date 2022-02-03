@@ -11,21 +11,6 @@
     opacity: 90%;
 }
 
-
-/* .social-icon {
-    width: 1.6rem;
-    height: auto;
-} */
-
-/* .social-icon:hover {
-    background-color: white;
-    border-radius: 50%;
-    transition: all 0.2s ease-out;
-    color: rgb(36, 36, 36);
-
-} */
-
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -55,17 +40,6 @@
     border-radius: 4px;
 }
 
-.name {
-    font-weight: 500;
-    font-style: italic;
-    color: white;
-}
-
-.first-letter {
-    /* font-weight: bold; */
-    font-size: 2rem;
-}
-
 .fa-bars {
     color: white;
 }
@@ -83,26 +57,6 @@
     .navbar-items {
         position: fixed;
     }
-
-    /* .social-icons {
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        grid-gap: 25px;
-        list-style: none;
-        text-align: center;
-        width: 8vw;
-        justify-content: center;
-        left: 45%;
-        align-items: center;
-        top: 8px;
-    } */
-    
-    /* .social-icon {
-        width: 2rem;
-        height: auto;
-    } */
-
 
     .nav-menu {
         display: flex;
@@ -134,13 +88,6 @@
         background-color: #003049;
         border-radius: 0;
     }
-
-    /* .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: (25%, 50%);
-    } */
 
     .menu-icon {
         display: block;
