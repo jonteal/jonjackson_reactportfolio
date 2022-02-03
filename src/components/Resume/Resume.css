@@ -46,6 +46,7 @@
     justify-content: flex-start;
     text-align: start;
     padding-left: 2.5%;
+    padding-bottom: 2.5rem;
 }
 
 h2 {
@@ -104,8 +105,16 @@ h2 {
         display: none;
     }
 
-    .resume-right {
+    .resume-left {
         margin-top: -1rem;
+    }
+
+    .resume-right {
+        margin-top: -3rem;
+    }
+
+    .contact-info {
+        padding-bottom: 2rem;
     }
 
 }

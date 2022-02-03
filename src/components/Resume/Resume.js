@@ -11,7 +11,7 @@ const Resume = () => {
                 
             <div className="resume-bg"></div>
             <h1 className="resume-title">Jon Jackson</h1>
-            <h3 className="resume-subtitle">Software Engineer, Musician</h3>
+            <h3 className="resume-subtitle">Software Engineer, Musician, Anthropologist, French enthusiast</h3>
             <div  className="resume-wrapper">
 
             <div className="resume-left">
@@ -31,9 +31,9 @@ const Resume = () => {
                         <p><b>University of Arkansas </b>| Fayetteville, AR | 2019</p>
                         <p> Bachelor of Science, Marketing</p>
                     </p>
-                    <p className="resume-desc">
+                    <p className="resume-desc bio">
                         <h2 className="bio">Work</h2>
-                        <b className="bio">MRO, Inc.</b>
+                        <p className="bio"><b>MRO, Inc. </b>| 8/20 - Current</p>
                         <p className="bio">Developed new business with 50+ accounts and boosted revenue by $580k in 2021.</p>
                         <b className="bio">Jonteal</b>
                         <p className="bio">Music producer and live performer</p>
@@ -51,7 +51,7 @@ const Resume = () => {
                         <p> GitHub, GitLab, Heroku, Compass, Atlas, Npm, Insomnia, Postman, MySQL Workbench</p>
                     </p>
                     
-                    <p className="resume-desc">
+                    <p className="resume-desc contact-info">
                         <h2>Contact Info</h2>
 
                         <div className="resume-info-item">
