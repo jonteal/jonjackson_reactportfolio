@@ -11,8 +11,6 @@
     opacity: 90%;
 }
 
-<<<<<<< HEAD
-=======
 /* .social-icons {
     position: absolute;
     display: flex;
@@ -41,7 +39,6 @@
 }
 
 
->>>>>>> origin/HEAD
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(6, auto);
