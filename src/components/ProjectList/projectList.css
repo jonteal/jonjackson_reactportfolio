@@ -38,6 +38,10 @@
         padding: 10px;
     }
 
+    .project-list-title {
+        font-size: 2rem;
+    }
+
     .project-list-texts {
         width: 100%;
         margin-top: 15%;
