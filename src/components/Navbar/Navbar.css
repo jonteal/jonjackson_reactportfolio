@@ -11,7 +11,7 @@
     opacity: 90%;
 }
 
-.social-icons {
+/* .social-icons {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -23,7 +23,7 @@
     align-items: center;
     right: 82%;
     top: 10px;
-}
+} */
 
 .social-icon {
     width: 1.6rem;
