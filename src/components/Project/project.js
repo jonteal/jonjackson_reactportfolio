@@ -1,6 +1,7 @@
 import "./Project.css";
 import React, {useState, useRef} from "react";
 
+// Project component
 const Project = ({img, link, live, title, description}) => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -18,11 +19,13 @@ const Project = ({img, link, live, title, description}) => {
                             height: "0px",
                         }
                     }>
+                        {/* Project Description */}
                         <div onClick={() => setIsOpen(!isOpen)} className="content">
                             {description}
                         </div>
                 </div>
             
+            {/* Github and Try it links on each project */}
                 <div className="project-browser">
                     <a className="project-link" href={link} target="_blank" rel="noreferrer">Github</a>
 
@@ -30,12 +33,11 @@ const Project = ({img, link, live, title, description}) => {
                 </div>
 
         
-            <img onClick={() => setIsOpen(!isOpen)} src={img} alt="" className="project-img"/>
+            <img onClick={() => setIsOpen(!isOpen)} src={img} alt="Selected project" className="project-img"/>
         
-
-                        
         </div>
     )
 }
 
+// Export the Project component
 export default Project;

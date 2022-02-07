@@ -1,3 +1,4 @@
+/* Intro component CSS */
 .intro {
     display: flex;
     height: 100vh;
@@ -60,6 +61,7 @@
     object-fit: cover;
 }
 
+/* Animation for scrolling text */
 @keyframes move {
     25%{
         transform: translateY(-50px);
@@ -114,8 +116,8 @@
         display: none;
     }
 
+    /* Changes the clip path of the teal shape when on mobile */
     .intro-bg {
         clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
-
     }  
 }

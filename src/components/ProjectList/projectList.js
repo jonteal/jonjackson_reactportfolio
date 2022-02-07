@@ -2,7 +2,7 @@ import "./ProjectList.css";
 import Project from "../Project/Project.js";
 import { projects } from "../../data";
 
-
+// ProjectList component
 const ProjectList = () => {
     return (
         <div className="project-list" id="project-section">
@@ -15,6 +15,8 @@ const ProjectList = () => {
                 </p>
             </div>
             <div className="project-list-list">
+
+                {/* Mapping over the projects in order to display them in the Project component instances */}
                 {projects.map((item) => (
                     <Project key={item.id} img={item.img} link={item.link} live={item.live} description={item.description}/>
                 ))}
@@ -26,4 +28,5 @@ const ProjectList = () => {
     )
 }
 
+// Exporting the ProjectList component
 export default ProjectList;

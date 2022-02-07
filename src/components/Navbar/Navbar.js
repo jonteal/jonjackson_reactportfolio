@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 
-
+// Navbar component
 function Navbar({ currentPage, handlePageChange }) {
 
     const [clicked, setClicked] = useState(false);
@@ -12,6 +12,8 @@ function Navbar({ currentPage, handlePageChange }) {
 
     return (
         <nav className="navbar-items">
+
+            {/* Displays the hamburger menu icon when not clicked (in mobile), and the X when it has been clicked */}
             <div className="menu-icon" onClick={handleClick}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
@@ -66,4 +68,5 @@ function Navbar({ currentPage, handlePageChange }) {
     );
 }
 
+// Exports the Navbar component
 export default Navbar

@@ -4,7 +4,7 @@ import EmailIcon from "../../Images/email-icon.png";
 import ResumePdf from "../../Images/Jon_Jackson_Resume.pdf";
 import Website from '../../Images/website-logo.png';
 
-
+// Resume component
 const Resume = () => {
     return (
         <div className="resume" id="resume-section">
@@ -57,7 +57,7 @@ const Resume = () => {
                         <div className="resume-info-item">
                             <img
                                 src={EmailIcon}
-                                alt=""
+                                alt="Email icon"
                                 className="info-icon"
                             />
                             jonjackson.webdesign@gmail.com
@@ -66,7 +66,7 @@ const Resume = () => {
                         <div className="resume-info-item">
                             <img
                                 src={PhoneIcon}
-                                alt=""
+                                alt="Phone icon"
                                 className="info-icon"
                             />
                             +1-479-601-3157
@@ -75,7 +75,7 @@ const Resume = () => {
                         <div className="resume-info-item">
                             <img
                                 src={Website}
-                                alt=""
+                                alt="Website icon"
                                 className="info-icon"
                             />
                             jonjacksondev.com
@@ -91,10 +91,8 @@ const Resume = () => {
             </div>
         </div>
 
-
-
-
     )
 }
 
+// Export Resume component
 export default Resume;

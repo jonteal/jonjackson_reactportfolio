@@ -1,11 +1,5 @@
 import { useContext } from "react";
-import Intro from "./components/Intro/Intro.js";
-import About from "./components/About/About.js";
-import ProjectList from "./components/ProjectList/ProjectList.js";
-import Contact from "./components/Contact/Contact.js";
-import Toggle from "./components/Toggle/Toggle.js";
 import { ThemeContext } from "./context";
-import Navbar from "./components/Navbar/Navbar.js";
 import PortfolioContainer from "./components/PortfolioContainer.js";
 // import particlesJS from "../"
 
@@ -20,6 +14,7 @@ const App = () => {
     // console.log('callback - particles.js config loaded');
     // });
 
+    // Renders the PortfolioContainer which internally handes the currentPage functionality and displays the respective data
     return (
         <div style={{ backgroundColor:darkMode ? "#222" : "white", 
         color: darkMode && "white" }}>
@@ -28,4 +23,5 @@ const App = () => {
     )
 }
 
+// Exports the App
 export default App;

@@ -1,6 +1,6 @@
 import "./Intro.css";
-// import Me from '../../Images/hero-profile-pic.jpeg';
 
+// Intro/Homepage component
 const Intro = () => {
     return (
         <div className="intro" id="home-section">
@@ -10,8 +10,9 @@ const Intro = () => {
                     <h1 className="intro-name">Jon Jackson</h1>
                     <div className="intro-title">
                         <div className="intro-title-wrapper">
+
+                            {/* Scrolling text */}
                             <div className='intro-title-item'>Web Developer</div>
-                            <div className='intro-title-item'>UI/UX Designer</div>
                             <div className='intro-title-item'>Music Producer</div>
                             <div className='intro-title-item'>Content Creator</div>
                         </div>
@@ -32,4 +33,5 @@ const Intro = () => {
     )
 }
 
+// Exporting the Intro component
 export default Intro;

@@ -1,6 +1,7 @@
 import "./About.css";
 import MontanaPic from "../../Images/me.jpeg";
 
+// About component
 const About = () => {
     return (
         <div className="about" id="about-section">
@@ -9,7 +10,7 @@ const About = () => {
                 <div className="about-card">
                     <img 
                     src={MontanaPic} 
-                    alt="" 
+                    alt="Me in Montana" 
                     className="about-img" />
                 </div>
             </div>
@@ -33,4 +34,5 @@ const About = () => {
     )
 }
 
+// Exporting the About component
 export default About;

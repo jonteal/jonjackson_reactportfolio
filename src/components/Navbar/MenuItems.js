@@ -1,3 +1,4 @@
+// Array of MenuItems that display as nav links at the top
 
 export const MenuItems = [
     {

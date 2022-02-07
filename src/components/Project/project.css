@@ -1,3 +1,4 @@
+/* Project component CSS */
 .project {
     width: 30%;
     height: 40vh;
@@ -19,7 +20,6 @@
     flex-direction: row;
     width: 100%;
 }
-
 
 .project-circle {
     width: 6px;
@@ -88,10 +88,6 @@
         height: 20vh;
     }
 
-    /* .project-browser {
-        display: flex;
-        flex-direction: column;
-    } */
     .content {
         font-size: .9rem;
         padding-bottom: .5rem;

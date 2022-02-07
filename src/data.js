@@ -5,6 +5,7 @@ import WeatherAPI from "./Images/weather-dashboard.png";
 import NoteTaker from "./Images/note-taker.png";
 import GameofThrones from "./Images/game-of-thrones.png";
 
+// Project Data
 export const projects = [
     {
         id: 1,

@@ -8,9 +8,11 @@ import Footer from './Footer/Footer';
 import Toggle from './Toggle/Toggle';
 import Resume from './Resume/Resume';
 
+// Portfolio container that handles currentPage functionality
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 
+    // renders whichever page component that has been selected and is the currentPage
     const renderPage = () => {
         if (currentPage === 'Home') {
             return <Intro />;
@@ -31,6 +33,7 @@ export default function PortfolioContainer() {
 
     const handlePageChange = (page) => setCurrentPage(page);
 
+    // container that renders Toggle, Navbar, currentPage, and Footer
     return (
         <div>
             <Toggle/>

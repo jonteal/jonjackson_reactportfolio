@@ -1,4 +1,4 @@
-
+/* Contact component CSS */
 
 .contact {
     height: 100vh;
@@ -59,7 +59,6 @@
 
 form {
     margin-top: 20px;
-    /* margin-bottom: 2rem; */
 }
 
 input {

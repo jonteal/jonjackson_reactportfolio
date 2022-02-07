@@ -2,14 +2,16 @@ import './Footer.css';
 import LinkedInIcon from '../../Images/white-linkedin-logo.png';
 import GithubIcon from '../../Images/white-github-logo.png';
 import TwitterIcon from '../../Images/twitter-white-logo.png';
-// import SoundcloudIcon from '../../Images/soundcloud-white-logo.png';
-// import Youtube from '../../media/youtube.png';
 
 
+// Footer component
 export const Footer = () => {
     return (
         <div className="footer">
             <div className="social-icons">
+
+                {/* Icons links to social media accounts */}
+                
                 <a href="https://github.com/jonteal" target="_blank" rel="noreferrer">
                     <img src={GithubIcon} alt="Github Icon" className="social-icon" />
                 </a>
@@ -31,5 +33,5 @@ export const Footer = () => {
     )
 };
 
-
+// Exporting Footer component
 export default Footer;

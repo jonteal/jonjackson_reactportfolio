@@ -1,19 +1,19 @@
 import "./Contact.css";
-// import Phone from "../../Images/phone.png";
 import PhoneIcon from "../../Images/white-phone-icon.png";
-// import Email from "../../Images/email.png";
 import LocationIcon from "../../Images/white-location-icon.png";
 import EmailIcon from "../../Images/email-icon.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 
+// Contact component
 const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false);
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
 
+    // handleSubmit using emailjs 
     const handleSubmit = (e) => {
         e.preventDefault()
         emailjs.sendForm(
@@ -40,11 +40,13 @@ const Contact = () => {
             <div  className="contact-wrapper">
                 <div className="contact-left">
                     <h1 className="contact-title">Contact me!</h1>
+
+                    {/* Contact information */}
                     <div className="contact-info">
                         <div className="contact-info-item">
                             <img
                                 src={PhoneIcon}
-                                alt=""
+                                alt="Phone icon"
                                 className="contact-icon"
                             />
                             +1 (479) 601-3157
@@ -52,7 +54,7 @@ const Contact = () => {
                         <div className="contact-info-item">
                             <img
                                 src={EmailIcon}
-                                alt=""
+                                alt="Email icon"
                                 className="contact-icon"
                             />
                             jonjackson.webdesign@gmail.com
@@ -60,7 +62,7 @@ const Contact = () => {
                         <div className="contact-info-item">
                             <img
                                 src={LocationIcon}
-                                alt=""
+                                alt="Location icon"
                                 className="contact-icon"
                             />
                             Fayetteville, AR
@@ -72,6 +74,8 @@ const Contact = () => {
                         <b>How can I help?</b> Reach out to me if you would like to chat about 
                         your team or project. I look forward to hearing from you!
                     </p>
+
+                    {/* Form to reach out via email */}
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
                         <input style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
@@ -86,4 +90,5 @@ const Contact = () => {
     )
 }
 
+// Exporting the Contact component
 export default Contact;
