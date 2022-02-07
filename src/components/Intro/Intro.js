@@ -18,9 +18,9 @@ const Intro = () => {
                     </div>
                     <p className="intro-desc">
                         I am a recent graduate of the University of Denver bootcamp for 
-                        Full Stack Development! I design and develop modern
-                        websites with stylish UI and am always seeking the next level of 
-                        my potential. 
+                        Full Stack Development! I work in the MERN stack primarily with a focus
+                        on front-end, but am always seeking to better my skills in the back-end
+                        as well! 
                     </p>
                 </div>
             </div>

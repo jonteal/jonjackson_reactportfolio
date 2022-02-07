@@ -23,13 +23,7 @@ const App = () => {
     return (
         <div style={{ backgroundColor:darkMode ? "#222" : "white", 
         color: darkMode && "white" }}>
-            {/* <Toggle/>
-            <Navbar/> */}
             <PortfolioContainer/>
-            {/* <Intro/>
-            <About/>
-            <ProjectList/>
-            <Contact/> */}
         </div>
     )
 }
