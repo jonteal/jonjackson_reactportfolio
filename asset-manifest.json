@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jonjackson_reactportfolio/static/css/main.f6102680.css",
+    "main.css": "/jonjackson_reactportfolio/static/css/main.07c2f848.css",
     "main.js": "/jonjackson_reactportfolio/static/js/main.8fdafa1b.js",
     "static/media/eat-the-frog.png": "/jonjackson_reactportfolio/static/media/eat-the-frog.3c0d38b789eb5d761afd.png",
     "static/media/weather-dashboard.png": "/jonjackson_reactportfolio/static/media/weather-dashboard.52eeec054f9fe9400515.png",
@@ -19,11 +19,11 @@
     "static/media/sun.png": "/jonjackson_reactportfolio/static/media/sun.49340bd62cc7aa431e15.png",
     "static/media/moon.png": "/jonjackson_reactportfolio/static/media/moon.0a9ae918b38451882b0e.png",
     "index.html": "/jonjackson_reactportfolio/index.html",
-    "main.f6102680.css.map": "/jonjackson_reactportfolio/static/css/main.f6102680.css.map",
+    "main.07c2f848.css.map": "/jonjackson_reactportfolio/static/css/main.07c2f848.css.map",
     "main.8fdafa1b.js.map": "/jonjackson_reactportfolio/static/js/main.8fdafa1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6102680.css",
+    "static/css/main.07c2f848.css",
     "static/js/main.8fdafa1b.js"
   ]
 }
