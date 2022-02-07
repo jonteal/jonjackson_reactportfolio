@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jonjackson_reactportfolio/static/css/main.53b2a700.css",
+    "main.js": "/jonjackson_reactportfolio/static/js/main.65ce6fab.js",
+    "static/media/eat-the-frog.png": "/jonjackson_reactportfolio/static/media/eat-the-frog.3c0d38b789eb5d761afd.png",
+    "static/media/weather-dashboard.png": "/jonjackson_reactportfolio/static/media/weather-dashboard.52eeec054f9fe9400515.png",
+    "static/media/thedailydev.png": "/jonjackson_reactportfolio/static/media/thedailydev.762346344153567411ed.png",
+    "static/media/brightideas_login.png": "/jonjackson_reactportfolio/static/media/brightideas_login.2df8c5d300e325ee63ff.png",
+    "static/media/website-logo.png": "/jonjackson_reactportfolio/static/media/website-logo.801294eda30e05daad53.png",
+    "static/media/me.jpeg": "/jonjackson_reactportfolio/static/media/me.f350077f374ec83a4e79.jpeg",
+    "static/media/twitter-white-logo.png": "/jonjackson_reactportfolio/static/media/twitter-white-logo.2bf6242ffe05c6979b42.png",
+    "static/media/game-of-thrones.png": "/jonjackson_reactportfolio/static/media/game-of-thrones.fefb7cbe10f47f51472e.png",
+    "static/media/Jon_Jackson_Resume.pdf": "/jonjackson_reactportfolio/static/media/Jon_Jackson_Resume.2a3f397af760057abe85.pdf",
+    "static/media/white-location-icon.png": "/jonjackson_reactportfolio/static/media/white-location-icon.4346876ab77abd27ab52.png",
+    "static/media/note-taker.png": "/jonjackson_reactportfolio/static/media/note-taker.ded62a80ca5e5da87c54.png",
+    "static/media/white-github-logo.png": "/jonjackson_reactportfolio/static/media/white-github-logo.9cea0b641d834be91047.png",
+    "static/media/email-icon.png": "/jonjackson_reactportfolio/static/media/email-icon.f7a5e5a033daae2d33a7.png",
+    "static/media/white-linkedin-logo.png": "/jonjackson_reactportfolio/static/media/white-linkedin-logo.508bfdf24264e95189c0.png",
+    "static/media/sun.png": "/jonjackson_reactportfolio/static/media/sun.49340bd62cc7aa431e15.png",
+    "static/media/moon.png": "/jonjackson_reactportfolio/static/media/moon.0a9ae918b38451882b0e.png",
+    "index.html": "/jonjackson_reactportfolio/index.html",
+    "main.53b2a700.css.map": "/jonjackson_reactportfolio/static/css/main.53b2a700.css.map",
+    "main.65ce6fab.js.map": "/jonjackson_reactportfolio/static/js/main.65ce6fab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53b2a700.css",
+    "static/js/main.65ce6fab.js"
+  ]
+}
