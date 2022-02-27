@@ -1,40 +1,25 @@
 import "./Project.css";
-import React, {useState, useRef} from "react";
+import React from "react";
 
 // Project component
-const Project = ({img, link, live, title, description}) => {
-    const [isOpen, setIsOpen] = useState(false);
+const Project = ({img, link, live, projectTitle, description}) => {
+    // const [isOpen, setIsOpen] = useState(false);
 
-    const parentRef = useRef();
+    // const parentRef = useRef();
 
 
     return (
-        <div className="project">
-                <div className="content-parent" ref={parentRef} 
-                    style={
-                        isOpen ? {
-                            height: parentRef.current.scrollHeight + "px",
-                        }
-                        : {
-                            height: "0px",
-                        }
-                    }>
-                        {/* Project Description */}
-                        <div onClick={() => setIsOpen(!isOpen)} className="content">
-                            {description}
-                        </div>
-                </div>
-            
-            {/* Github and Try it links on each project */}
-                <div className="project-browser">
-                    <a className="project-link" href={link} target="_blank" rel="noreferrer">Github</a>
+        <div className="project fade">
+                <div className="img-wrapper">
 
-                    <a className="project-link" href={live} target="_blank" rel="noreferrer">Try it!</a>
-                </div>
-
-        
-            <img onClick={() => setIsOpen(!isOpen)} src={img} alt="Selected project" className="project-img"/>
-        
+                    <img src={img} alt="Selected project" className="zoom blur"/>
+                    {/* <div className="content fade">
+                        {description}
+                    </div> */}
+                </div>   
+                
+                <p className="project-name">{projectTitle}</p>
+                
         </div>
     )
 }

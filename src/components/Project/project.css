@@ -1,15 +1,79 @@
 /* Project component CSS */
 .project {
     width: 30%;
-    height: 40vh;
+    /* height: 40vh; */
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* position: relative; */
 }
 
-.project-browser {
+.content {
+    height: 0px;
+    margin-bottom: 1rem;
+    padding: 5px;
+    color: black;
+}
+
+.img-wrapper {
+    /* position: relative; */
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    /* filter: blur(1px); */
+}
+
+
+
+.img-wrapper:hover > img.zoom,
+.img-wrapper:hover > img.blur {
+    transform: scale(1.2);
+    transition: 1000ms;
+    /* filter: blur(0); */
+}
+
+.img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > .content.fade {
+    opacity: 0;
+}
+.img-wrapper:hover > .content.fade {
+    opacity: 1;
+}
+
+.project-name {
+    background-color: white;
+    color: black;
+    border-radius: 0 0 10px 10px;
+    height: 3rem;
+}
+
+/* .project-browser {
     height: 15%;
     background-color: #c7c7c7;
     display: flex;
@@ -19,22 +83,22 @@
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
-}
+} */
 
-.project-circle {
+/* .project-circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
     margin: 3px;
     background-color: white;
-}
+} */
 
-.project-img {
+/* .project-img {
     height: 100%;
     object-fit: cover;
-}
+} */
 
-.link-container {
+/* .link-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,43 +108,30 @@
 .project-link {
     font-weight: 500;
     color: #1c74f7;
-}
+} */
 
-.project-link:hover {
+/* .project-link:hover {
     background-color: #1c74f7;
     color: whitesmoke;
     transition: all 0.3s ease-out;
     border-radius: 4px;
-}
+} */
 
-.content {
-    height: 0px;
-    margin-bottom: 1rem;
-    padding: 5px;
-}
 
-.content-parent {
-    height: 0px;
-    overflow: hidden;
-    transition: ease 0.3s;
-    transform-origin: top;
-    transform: scaleY(100%);
-    background-color: #69a09a;
-}
 
-.content-parent.show {
+/* .content-parent.show {
     height: auto;
-}
+} */
 
-.project-img {
+/* .project-img {
     width: 100%;
     transition: all 10s ease;
     cursor: pointer;
-}
+} */
 
-.project:over .project-img {
+/* .project:over .project-img {
     transform: translateY(-100%);
-}
+} */
 
 @media screen and (max-width: 480px) {
     .project {

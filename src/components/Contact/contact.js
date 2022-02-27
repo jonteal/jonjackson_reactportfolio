@@ -71,16 +71,17 @@ const Contact = () => {
                 </div>
                 <div className="contact-right">
                     <p className="contact-desc">
-                        <b>How can I help?</b> Reach out to me if you would like to chat about 
-                        your team or project. I look forward to hearing from you!
+                        <b>How can I help?</b> Reach out to me if you want to discuss a role, project 
+                        you're working on, or if you just want to say hello and connect! 
+                        I look forward to hearing from you!
                     </p>
 
                     {/* Form to reach out via email */}
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
-                        <input style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
-                        <input style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
-                        <textarea style={{backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
+                        <input tabIndex={"0"} style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
+                        <input tabIndex={"0"} style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
+                        <input tabIndex={"0"} style={{backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
+                        <textarea tabIndex={"0"} style={{backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
                         {done && "Thank you for your message!"}
                     </form>
