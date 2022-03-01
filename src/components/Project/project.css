@@ -133,6 +133,21 @@
     transform: translateY(-100%);
 } */
 
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.link {
+    color: rgb(32, 32, 255);
+}
+
+.project-info {
+    padding: 2rem;
+}
+
 @media screen and (max-width: 480px) {
     .project {
         width: 40%;

@@ -10,9 +10,9 @@ export const projects = [
     {
         id: 1,
         img: EatTheFrog,
-        projectTitle: "https://github.com/msp4msps/eat_the_frog",
+        link: "https://github.com/msp4msps/eat_the_frog",
         live: "https://msp4msps.github.io/eat_the_frog/",
-        name: "Eat the Frog",
+        title: "Eat the Frog",
         description: "'Eat the Frog' is a front-end task manager designed to help users increase and maintain their productivity."
     },
     {
