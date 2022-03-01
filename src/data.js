@@ -13,7 +13,7 @@ export const projects = [
         link: "https://github.com/msp4msps/eat_the_frog",
         live: "https://msp4msps.github.io/eat_the_frog/",
         title: "Eat the Frog",
-        description: "'Eat the Frog' is a front-end task manager designed to help users increase and maintain their productivity."
+        description: "'Eat the Frog' is a front-end task manager designed to help users increase and maintain their productivity. Built with HTML, CSS, and Javascipt."
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const projects = [
         link: "https://github.com/EMtheDM/BrightIdeas",
         live: "https://gentle-wildwood-55104.herokuapp.com/",
         title: "Bright Ideas",
-        description: "'Bright Ideas' is a full stack project management tool where users can manage projects from start to finish."
+        description: "'Bright Ideas' is a full stack project management tool where users can manage projects from start to finish. Developed with a RESTful approach, using MySQL, Express, BCrypt and Javascript."
     },
     {
         id: 3,
