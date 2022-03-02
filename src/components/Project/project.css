@@ -104,8 +104,13 @@
 
 .project-info {
     padding: 1rem;
+    filter: blur(3px);
 }
 
+.project-info:hover {
+    filter: blur(0);
+    transition: all 0.5s ease-out;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -117,5 +122,11 @@
     .content {
         font-size: .9rem;
         padding-bottom: .5rem;
+    }
+
+    .link {
+        color: rgb(32, 32, 255);
+        padding: 0.1rem;
+        font-size: .8rem;
     }
 }

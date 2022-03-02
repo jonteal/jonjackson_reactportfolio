@@ -11,24 +11,17 @@ const Project = ({img, link, live, title, description, tools}) => {
     return (
         <div className="project fade">
                 <div className="linkContainer">
-                        <a className="link" href={link}>Github</a>
-                        <a className="link" href={live}>Try it!</a>
+                        <a className="link" href={link} target="_blank" rel="noreferrer">Github</a>
+                        <a className="link" href={live} target="_blank" rel="noreferrer">Try it!</a>
                 </div>
-                <a href={live}>
+                <a href={live} target="_blank" rel="noreferrer">
                     <div className="img-wrapper">
                         <img src={img} alt="Selected project" className="zoom blur"/>
                     </div>
                 </a>  
-                {/* <div className="project-title">
-                    {title}
-                </div>  */}
                 <div className="project-info">
                     <p class="card-text">{description}</p>
                 </div>
-                {/* <div className="project-info">
-                    <p className="tools">{tools}</p>
-                </div>
-                 */}
         </div>
 
         
