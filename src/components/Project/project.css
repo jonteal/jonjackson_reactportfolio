@@ -1,13 +1,12 @@
 /* Project component CSS */
 .project {
     width: 30%;
-    /* height: 40vh; */
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 10px 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* position: relative; */
+    background-color: rgb(244, 242, 242);
 }
 
 .content {
@@ -18,7 +17,6 @@
 }
 
 .img-wrapper {
-    /* position: relative; */
     overflow: hidden;
     border-radius: 10px 10px 0 0;
     height: 40vh;
@@ -31,7 +29,6 @@
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
-    /* filter: blur(1px); */
 }
 
 
@@ -39,8 +36,7 @@
 .img-wrapper:hover > img.zoom,
 .img-wrapper:hover > img.blur {
     transform: scale(1.2);
-    transition: 1000ms;
-    /* filter: blur(0); */
+    transition: 1500ms;
 }
 
 .img-wrapper > .content {
@@ -73,80 +69,44 @@
     height: 3rem;
 }
 
-/* .project-browser {
-    height: 15%;
-    background-color: #c7c7c7;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-} */
-
-/* .project-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: white;
-} */
-
-/* .project-img {
-    height: 100%;
-    object-fit: cover;
-} */
-
-/* .link-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5%;
+.card-text {
+    color: black;
 }
 
-.project-link {
-    font-weight: 500;
-    color: #1c74f7;
-} */
-
-/* .project-link:hover {
-    background-color: #1c74f7;
-    color: whitesmoke;
-    transition: all 0.3s ease-out;
-    border-radius: 4px;
-} */
-
-
-
-/* .content-parent.show {
-    height: auto;
-} */
-
-/* .project-img {
-    width: 100%;
-    transition: all 10s ease;
-    cursor: pointer;
-} */
-
-/* .project:over .project-img {
-    transform: translateY(-100%);
-} */
+.card-title {
+    color: black;
+}
 
 .linkContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
+    background-color: rgb(244, 242, 242);
+}
+
+.tools {
+    color: black;
 }
 
 .link {
     color: rgb(32, 32, 255);
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    background-color: #2a9d8f;
+    border-radius: 5%;
+    transition: all 0.2s ease-out;
+    color: white;
 }
 
 .project-info {
     padding: 1rem;
 }
+
+
 
 @media screen and (max-width: 480px) {
     .project {

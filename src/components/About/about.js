@@ -17,16 +17,16 @@ const About = () => {
             <div className="about-right">
                 <h1 className="about-title">About Me</h1>
                 <p className="about-sub">
-                    I am a junior full stack developer, but beyond that I have a passion for 
-                    creating music, reading a good fiction book, and spending time outdoors 
-                    with my wonderful family! 
+                    I am a junior full stack developer, avid learner, and lover of all things related to creative expression. Beyond that, I have a passion for 
+                    making music, reading a good book, and spending time outdoors 
+                    with my family! 
                 </p>
                 <p className="about-desc">
                     I graduated the University of Arkansas Walton College of Business with a 
-                    Bachelor's in Marketing and Business Administration. Before transitioning into 
-                    business, I had a large focus on Anthropology and French as well. Other 
-                    than my college education and graduating the University of Denver coding bootcamp, 
-                    I spent a few years as a music producer/performer - writing music and playing 
+                    Bachelor's in Marketing and Business Administration in 2019. Before transitioning into 
+                    business, I had a large focus on Anthropology and French in school. Other 
+                    than my college education and graduating with a cerification in Full Stack web development from the 
+                    University of Denver, I spent a few years as a music producer/performer - writing music and playing 
                     saxophone around the country. Life is a beautiful journey and you never know what's in store!
                 </p>
             </div>

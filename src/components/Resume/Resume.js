@@ -35,6 +35,7 @@ const Resume = () => {
                         <h2 className="bio">Work</h2>
                         <p className="bio"><b>MRO, Inc. </b>| 8/20 - Current</p>
                         <p className="bio">Developed new business with 50+ accounts and boosted revenue by $580k in 2021.</p>
+                        <p className="bio">Designed processes for managing robotic integrations between engineering partners and clients.</p>
                         <b className="bio">Jonteal</b>
                         <p className="bio">Music producer and live performer</p>
                     </p>

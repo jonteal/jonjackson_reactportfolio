@@ -2,7 +2,7 @@ import "./Project.css";
 import React from "react";
 
 // Project component
-const Project = ({img, link, live, title, description}) => {
+const Project = ({img, link, live, title, description, tools}) => {
     // const [isOpen, setIsOpen] = useState(false);
 
     // const parentRef = useRef();
@@ -10,27 +10,25 @@ const Project = ({img, link, live, title, description}) => {
 
     return (
         <div className="project fade">
+                <div className="linkContainer">
+                        <a className="link" href={link}>Github</a>
+                        <a className="link" href={live}>Try it!</a>
+                </div>
                 <a href={live}>
                     <div className="img-wrapper">
-
-                    <img src={img} alt="Selected project" className="zoom blur"/>
-                    {/* <div className="content fade">
-                        {description}
-                    </div> */}
+                        <img src={img} alt="Selected project" className="zoom blur"/>
                     </div>
-                </a>   
+                </a>  
+                {/* <div className="project-title">
+                    {title}
+                </div>  */}
                 <div className="project-info">
-                    <h5 class="card-title">{title}</h5>
                     <p class="card-text">{description}</p>
-                    <div className="linkContainer">
-                        <a className="link" href={link}>Github</a>
-                        <a className="link" href={live}>Live</a>
-                    </div>
-                    
-
-                    
                 </div>
-                
+                {/* <div className="project-info">
+                    <p className="tools">{tools}</p>
+                </div>
+                 */}
         </div>
 
         
