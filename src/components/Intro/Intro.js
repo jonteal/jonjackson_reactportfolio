@@ -19,8 +19,8 @@ const Intro = () => {
                     </div>
                     <p className="intro-desc">
                         I am a graduate of the University of Denver bootcamp for 
-                        Full Stack Web Development! I enjoy developing user friendly, dynamic projects with 
-                        in the front-end space, but am always seeking to develop my skills further in all areas. 
+                        Full Stack Web Development! I love creating, problem-solving,
+                        collaborating, designing, and most of all - learning! 
                     </p>
                 </div>
             </div>

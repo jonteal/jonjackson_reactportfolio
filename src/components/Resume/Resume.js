@@ -33,9 +33,9 @@ const Resume = () => {
                     </p>
                     <p className="resume-desc bio">
                         <h2 className="bio">Work</h2>
-                        <p className="bio"><b>MRO, Inc. </b>| 8/20 - Current</p>
-                        <p className="bio">Developed new business with 50+ accounts and boosted revenue by $580k in 2021.</p>
-                        <p className="bio">Designed processes for managing robotic integrations between engineering partners and clients.</p>
+                        <p className="bio"><b>2U </b>| 03/2022 - Current</p>
+                        <p className="bio">Central Tutor - Full Stack Web Development</p>
+                        <p className="bio">Central Grader - Full Stack Web Development</p>
                         <b className="bio">Jonteal</b>
                         <p className="bio">Music producer and live performer</p>
                     </p>
@@ -47,9 +47,9 @@ const Resume = () => {
                         <b>Languages:</b>
                         <p>JavaScript ES6+, CSS3, HTML5, SQL (MySQL), NoSQL (MongoDB), Node.js, GraphQL</p>
                         <b>Libraries</b>
-                        <p> ReactJS, Express, Node, jQuery, Bootstrap, Bulma, NextJS, Sequelize, Mongoose, Handlebars</p>
+                        <p> ReactJS, Redux, Express, Node, jQuery, Materialize, Bootstrap, Bulma, NextJS, Sequelize, Mongoose, Handlebars</p>
                         <b>Applications</b>
-                        <p> GitHub, GitLab, Heroku, Compass, Atlas, Npm, Insomnia, Postman, MySQL Workbench</p>
+                        <p> GitHub, Firebase, GitLab, Heroku, Compass, Atlas, Npm, Insomnia, Postman, MySQL Workbench</p>
                     </p>
                     
                     <p className="resume-desc contact-info">

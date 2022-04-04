@@ -90,7 +90,7 @@
 }
 
 .link {
-    color: rgb(32, 32, 255);
+    color: rgb(17, 17, 171);
     padding: 0.5rem;
     font-size: 1.1rem;
 }
@@ -104,13 +104,13 @@
 
 .project-info {
     padding: 1rem;
-    filter: blur(3px);
+    /* filter: blur(3px); */
 }
 
-.project-info:hover {
+/* .project-info:hover {
     filter: blur(0);
     transition: all 0.5s ease-out;
-}
+} */
 
 
 @media screen and (max-width: 480px) {
